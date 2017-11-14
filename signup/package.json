@@ -1,0 +1,24 @@
+{
+  "name": "hello",
+  "private": true,
+  "main": "core.umd.js",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "antd": "^2.13.9",
+    "babel-runtime": "^6.26.0",
+    "classname": "0.0.0",
+    "gt3-sdk": "^2.0.0",
+    "history": "^4.7.2",
+    "indexof": "0.0.1",
+    "meteor-node-stubs": "^0.3.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-dom": "^16.0.0",
+    "react-geetest": "^1.0.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
