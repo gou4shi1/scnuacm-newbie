@@ -108,6 +108,12 @@ class showPage extends Component {
             title: '学号',
             dataIndex: 'id',
             sorter: (a, b) => a.id - b.id,
+        /*}, {
+            title: '手机',
+            dataIndex: 'phone',
+        }, {
+            title: '邮箱',
+            dataIndex: 'email',*/
         }];
 
         return (

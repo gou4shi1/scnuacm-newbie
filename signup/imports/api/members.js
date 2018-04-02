@@ -6,7 +6,7 @@ export const Members = new Mongo.Collection('members');
 
 if (Meteor.isServer) {
     Meteor.publish('members', function() {
-        return Members.find({}, { fields: { phone: 0, email: 0 } });
+        return Members.find({}, {"phone": 0, "email": 0});
     });
 }
 
